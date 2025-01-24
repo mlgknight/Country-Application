@@ -6,7 +6,7 @@ export default function SingleCountry({ filteredCountries, selectCountry, curren
   const [weatherData, setWeatherData] = useState(null);
   const [city, setCity] = useState("");
 
-  const apiKey = import.meta.env.VITE_API_KEY;
+  const apiKey = "9fb0324513d883612270a63705a290b4";
 
   useEffect(() => {
     if (city) {
